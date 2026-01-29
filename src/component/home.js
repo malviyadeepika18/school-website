@@ -146,7 +146,7 @@ const Home = () => {
                 
           
                     <Col md="4">
-                      <Card className="info-card">
+                      <Card className="info-card mb-4">
                         <CardBody>
                           <span className="step-number">1</span>
                           <h5>Admission Form</h5>
@@ -163,7 +163,7 @@ const Home = () => {
                     </Col>
           
                     <Col md="4">
-                      <Card className="info-card">
+                      <Card className="info-card  mb-4">
                         <CardBody>
                           <span className="step-number">2</span>
                           <h5>Survey Form</h5>
@@ -176,7 +176,7 @@ const Home = () => {
                       </Card>
                     </Col>
                       <Col md="4">
-                      <Card className="info-card">
+                      <Card className="info-card  mb-4">
                         <CardBody>
                           <span className="step-number">3</span>
                           <h5>Receipt To Enrollment</h5>
@@ -203,7 +203,7 @@ const Home = () => {
 
           <Row className="mt-4">
             <Col md="4">
-              <Card className="academic-card">
+              <Card className="academic-card  mb-4">
                 <div className="academic-img-wrapper">
                   <img src={imagekidss} alt="Science Fair" />
                   <div className="calendar-badge">
@@ -217,7 +217,7 @@ const Home = () => {
               </Card>
             </Col>
             <Col md="4">
-              <Card className="academic-card">
+              <Card className="academic-card  mb-4">
                 <div className="academic-img-wrapper">
                   <img src={imagekidss} alt="Science Fair" />
 
@@ -232,7 +232,7 @@ const Home = () => {
               </Card>
             </Col>
             <Col md="4">
-              <Card className="academic-card">
+              <Card className="academic-card  mb-4">
                 <div className="academic-img-wrapper">
                   <img src={imagekidss} alt="Science Fair" />
                   <div className="calendar-badge">

@@ -415,17 +415,16 @@ color: white !important ;
 
 .school-logo {
   height: 45px;
-  width: auto;
-  margin-right: 10px;
+  /* width: auto; */
+  margin-right: 8px;
 }
 
 .school-name {
   font-size: 18px;
   font-weight: 700;
   color: #0d6efd; /* Bootstrap primary */
-  white-space: nowrap;
+  /* white-space: nowrap;s */
 }
-
 
 
 .school-header {
@@ -1239,3 +1238,104 @@ letter-spacing: 2px;
   text-align: center;
 }
 
+
+
+.offcanvas-body .nav-link {
+  padding: 12px 0;
+}
+
+.navbar-toggler {
+  box-shadow: none;
+}
+.menuheader{
+  background-color: #0b3c7d;
+  color: white;
+}
+
+
+
+/* ================= MOBILE ONLY ================= */
+@media (max-width: 767px) {
+  .mobile-navbar {
+    height: 80px;
+    position: relative;
+  }
+
+  /* ☰ Menu icon LEFT */
+  .mobile-toggler {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    z-index: 1050;
+   
+  }
+  .mobile-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  /* Brand CENTER */
+  .navbar-brand-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+  }
+
+  .school-logo {
+    height: 42px;
+  }
+
+  .school-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+       font-size: 18px;
+  font-weight: 700;
+  color: #0d6efd;
+  }
+
+  .school-main {
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap; /* 👈 ONE LINE FIX */
+  }
+
+  .school-sub {
+    font-size: 13px;
+    font-weight: 700;
+  }
+}
+
+/* ================= DESKTOP ================= */
+@media (min-width: 768px) {
+  .school-text {
+    flex-direction: row;
+    gap: 4px;
+     font-size: 18px;
+  font-weight: 700;
+  color: #0d6efd; 
+  }
+
+  .school-sub {
+    display: inline;
+  }
+   .navbar-brand-center {
+    position: static;        /* 🔥 FIX */
+    transform: none;         /* 🔥 FIX */
+    display: flex;
+    align-items: center;
+}
+}
+
+.offcanvas-width{
+  width: 250px !important;
+}
+.fontweight-list{
+  font-weight: 600;
+
+}

@@ -45,7 +45,7 @@ const Admissions = () => {
       
 
           <Col md="4">
-            <Card className="info-card">
+            <Card className="info-card  mb-4">
               <CardBody>
                 <span className="step-number">1</span>
                 <h5>Admission Form</h5>
@@ -62,7 +62,7 @@ const Admissions = () => {
           </Col>
 
           <Col md="4">
-            <Card className="info-card">
+            <Card className="info-card  mb-4">
               <CardBody>
                 <span className="step-number">2</span>
                 <h5>Survey Form</h5>
@@ -75,7 +75,7 @@ const Admissions = () => {
             </Card>
           </Col>
             <Col md="4">
-            <Card className="info-card">
+            <Card className="info-card  mb-4">
               <CardBody>
                 <span className="step-number">3</span>
                 <h5>Receipt To Enrollment</h5>

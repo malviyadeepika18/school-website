@@ -28,7 +28,7 @@ const ContactAddress = () => {
 
       <Row className="mt-4">
         <Col md="4">
-          <Card className="contact-card">
+          <Card className="contact-card  mb-4">
             <CardBody>
               <div className="contact-item">
                 <LocationOnIcon className="contact-icon" />
@@ -42,7 +42,7 @@ const ContactAddress = () => {
         </Col>
 
         <Col md="4">
-          <Card className="contact-card">
+          <Card className="contact-card mb-4">
             <CardBody>
               <div className="contact-item">
                 <EmailIcon className="contact-icon" />
@@ -56,7 +56,7 @@ const ContactAddress = () => {
         </Col>
 
         <Col md="4">
-          <Card className="contact-card">
+          <Card className="contact-card  mb-4">
             <CardBody>
               <div className="contact-item">
                 <CallIcon className="contact-icon" />

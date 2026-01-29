@@ -57,7 +57,7 @@ const Footer = () => {
             
             <h5 className="footer-title">Follow Us</h5>
 
-<div className="social-icons">
+<div className="social-icons mb-3">
   <a href="https://facebook.com" target="_blank" rel="noreferrer">
     <i className="fab fa-facebook-f"></i>
   </a>
