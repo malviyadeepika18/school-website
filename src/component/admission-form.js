@@ -664,17 +664,7 @@ childName: "",
   is ready and agree to follow up all the rules and regulations of the School.
 </p>
 
-<div className="declaration-footer">
-  <div>
-    <div className="signature-line"></div>
-    <strong>Sign of Parent</strong>
-  </div>
 
-  <div className="principal-box">
-    <strong>Principal</strong>
-    <div>KID'S RITES INTERNATIONAL SCHOOL</div>
-  </div>
-</div>
 
 
 
