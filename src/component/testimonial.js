@@ -1,21 +1,53 @@
 import React from "react";
 import { Container, Row, Col, Card, CardBody } from "reactstrap";
+import Parentimg from "../image/WhatsApp Image 2026-02-04 at 10.31.55 AM (1).jpeg"
+import studentimge from "../image/student.jpeg"
+import img9 from "../image/WhatsApp Image 2026-02-04 at 10.32.12 AM (2).jpeg";
+import studentimgesss from "../image/imgstudnt.jpeg"
+import parentsimgesss from "../image/parentss.jpeg"
 
 
 const testimonials = [
   {
-    name: "Anita Sharma",
+    name: "Rahul Mehta",
     role: "Parent",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    image: Parentimg,
     text:
       "My child loves the school and is excelling in studies. Wonderful environment!",
   },
   {
-    name: "Rahul Mehta",
+   
+      name: "Anita Sharma",
     role: "Student",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: studentimge,
     text:
       "I have made amazing friends and learned so much here. Teachers are very supportive",
+      
+  },
+   {
+   
+      name: "Aditi Deshmukh",
+    role: "Student",
+    image: img9,
+    text: 'This school has helped me gain confidence and improve my academic performance.The learning environment is excellent',
+      
+  },
+   {
+   
+      name: "Trupati C. Thakre",
+    role: "Student",
+    image: studentimgesss,
+    text:
+      "The teachers here are very supportive and always encourage us to do our best. I enjoy coming to school every day.",
+      
+  },
+  {
+   
+      name: "Geeta K. Shahare",
+    role: "Parent",
+    image: parentsimgesss,
+    text:
+     " Teachers are very supportive and attentive.",
       
   },
 ];

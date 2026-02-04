@@ -3,9 +3,40 @@ import React from 'react'
 import { Container, Row, Col, Card, CardBody, Navbar } from "reactstrap";
 import { Button } from "@mui/material";
 import { NavLink } from "react-router-dom";
-import imagekidss from "../image/kids.avif"
+// import imagekidss from "../image/kids.avif"
+import yogaimge from "../image/WhatsApp Image 2026-02-04 at 10.32.03 AM (2).jpeg"
+import polaimg from "../image/WhatsApp Image 2026-02-04 at 10.32.20 AM.jpeg"
+import imagekidss from "../image/WhatsApp Image 2026-02-04 at 10.32.15 AM (2).jpeg";
 
 function Event() {
+
+
+  const events = [
+ {
+    id: 1,
+    image: imagekidss,
+    date: "Aug 09, 2024",
+    title: "Rakhi Making Competition",
+      desc: "Students will showcase innovative science projects and experiments.",
+  },
+  {
+    id: 2,
+    image: yogaimge,
+    date: "June 21, 2025",
+    title: "Interntional Yoga Day",
+    desc: "Students will create beautiful handmade rakhis.",
+  },
+  
+ 
+   {
+    id: 3,
+    image: polaimg,
+    date: "Aug 23, 2025",
+    title: "Pola Celebration",
+    desc:"Celebrating Pola to teach students values of gratitude, culture, and respect for nature."
+  },
+];
+
   return (
     <>
 <div className="about-header-full">
@@ -30,72 +61,24 @@ function Event() {
         <Row className="mt-4">
           <h2 className="text-center offer-title">Our Upcoming Events </h2>
           
-          <Col md="4">
-  <Card className="academic-card mt-5">
-    <div className="academic-img-wrapper">
-      <img
-         src={imagekidss}
-        alt="Science Fair"
-      />
+  {events.map((event) => (
+    <Col md="4" key={event.id}>
+      <Card className="academic-card mt-5">
+        <div className="academic-img-wrapper">
+          <img src={event.image} alt={event.title} />
+        </div>
 
-    </div>
-  <CardBody className="event-content">
-  <div className="event-header">
-    <h5 className="event-title">Science Fair</h5>
-    <span className="event-date">📅 July 15, 2024</span>
-  </div>
+        <CardBody className="event-content">
+          <div className="event-header">
+            <h5 className="event-title">{event.title}</h5>
+            <span className="event-date">📅 {event.date}</span>
+          </div>
 
-  <p className="event-desc">
-    Students will showcase innovative science projects and experiments.
-  </p>
-</CardBody>
-
-  </Card>
-</Col>
-      <Col md="4">
-  <Card className="academic-card mt-5">
-    <div className="academic-img-wrapper">
-      <img
-         src={imagekidss}
-        alt="Science Fair"
-      />
-
-    </div>
-  <CardBody className="event-content">
-  <div className="event-header">
-    <h5 className="event-title">Science Fair</h5>
-    <span className="event-date">📅 July 15, 2024</span>
-  </div>
-
-  <p className="event-desc">
-    Students will showcase innovative science projects and experiments.
-  </p>
-</CardBody>
-
-  </Card>
-</Col>
-      <Col md="4">
-  <Card className="academic-card mt-5">
-    <div className="academic-img-wrapper">
-      <img
-         src={imagekidss}
-        alt="Science Fair"
-      />
-
-    </div>
-  <CardBody className="event-content">
-  <div className="event-header">
-    <h5 className="event-title">Science Fair</h5>
-    <span className="event-date">📅 July 15, 2024</span>
-  </div>
-
-  <p className="event-desc">
-    Students will showcase innovative science projects and experiments.
-  </p>
-</CardBody>
-
-  </Card>
-</Col>
+          <p className="event-desc">{event.desc}</p>
+        </CardBody>
+      </Card>
+    </Col>
+  ))}
 
         </Row>
       </Container>

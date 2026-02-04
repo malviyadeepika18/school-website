@@ -171,6 +171,7 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
   cursor: pointer;
+  height: 90% !important;
 }
 
 /* Hover lift */
@@ -317,7 +318,7 @@
   border: none;
   border-radius: 16px;
   padding: 20px;
-  height: 240px;
+  height: 240px !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
   overflow: hidden !important;
@@ -790,19 +791,54 @@ padding: 8px 14px;
 .about-list {
   padding-left: 0;
   list-style: none;
+  margin-top: 15px;
 }
 
 .about-list li {
   margin-bottom: 8px;
   font-weight: 500;
 }
+.about-listss {
+  padding-left: 0;
+  list-style: none;
+  /* margin-top: 15px; */
+}
+
+.about-listss li {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
 .card-body-fixed {
-  height: 118px;          
+  height: 250px;          
   overflow: hidden;       
   position: relative;
   padding-bottom: 30px;
 }
 
+/* .card-body-fixed::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(transparent, white);
+} */
+
+
+
+
+
+
+
+.read-more-btn {
+  background: none;
+  border: none;
+  color: #1976d2;
+  cursor: pointer;
+  font-weight: 600;
+}
 
 
 
@@ -833,6 +869,7 @@ padding: 8px 14px;
   border-radius: 14px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
+  height: 100px !important;
 }
 
 .contact-card:hover {
@@ -1325,3 +1362,7 @@ letter-spacing: 2px;
   font-weight: 600;
 
 }
+
+
+
+

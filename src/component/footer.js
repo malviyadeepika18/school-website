@@ -38,15 +38,15 @@ const Footer = () => {
            <ul className="footer-contact">
   <li>
     <i className="fas fa-map-marker-alt"></i>
-    Fortlane Road, Loner
+   Plot No. 3, Maa Kali Nagar, Pawanagon Road, Ghongad Kamptee, Nagpur - 441001 (MH)
   </li>
   <li>
     <i className="fas fa-phone-alt"></i>
-    +113 456 7890
+   9112398739 / 9096944337
   </li>
   <li>
     <i className="fas fa-envelope"></i>
-   prsysinternational@gmail.com
+  kidsritesint.school01@gmail.com
   </li>
 </ul>
 

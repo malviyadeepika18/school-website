@@ -34,7 +34,7 @@ const ContactAddress = () => {
                 <LocationOnIcon className="contact-icon" />
                 <div>
                   <h6>Postal Address</h6>
-                  <p>Fortlane Road, Loner, Maharashtra</p>
+                  <p>Plot No. 3, Maa Kali Nagar, Pawanagon Road, Ghongad Kamptee, Nagpur - 441001 (MH)</p>
                 </div>
               </div>
             </CardBody>
@@ -48,7 +48,7 @@ const ContactAddress = () => {
                 <EmailIcon className="contact-icon" />
                 <div>
                   <h6>Email</h6>
-                  <p>info@schoolname.com</p>
+                  <p>kidsritesint.school01@gmail.com</p>
                 </div>
               </div>
             </CardBody>
@@ -62,7 +62,8 @@ const ContactAddress = () => {
                 <CallIcon className="contact-icon" />
                 <div>
                   <h6>Phone</h6>
-                  <p>+113 456 7890</p>
+                  <p>9112398739  /
+                    9096944337</p>
                 </div>
               </div>
             </CardBody>

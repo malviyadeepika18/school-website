@@ -90,7 +90,7 @@ const AdmissionView = () => {
 
       <p className="address">
         Address: Plot No. 3, Maa Kali Nagar, Pawanagon Road,
-        Ghongad Kamtee, Nagpur - 441001 (MH)
+        Ghongad Kamptee, Nagpur - 441001 (MH)
       </p>
 
       <p className="contact">
